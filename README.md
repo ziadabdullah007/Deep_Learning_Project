@@ -131,6 +131,62 @@ Extracted visual embeddings are used for:
 - Recommendation System
 
 ---
+# 📊 Model Comparison
+
+| Model | Validation Accuracy | Validation Loss |
+|---|---|---|
+| EfficientNetB0 + BiLSTM | 30% | 3.8 |
+| ResNet50 + Attention BiLSTM | 38% | 3.1 |
+| EfficientNetB3 + BiGRU + MultiHeadAttention | 40%+ | 2.9 |
+
+---
+
+# 📈 Training Analysis
+
+## 🔹 EfficientNetB0 + BiLSTM
+- Fastest model
+- Lightweight architecture
+- Lower memory usage
+- Good baseline performance
+
+### Results
+- Validation Accuracy: **30%**
+- Validation Loss: **3.8**
+
+---
+
+## 🔹 ResNet50 + Attention BiLSTM
+- Better contextual understanding
+- Stronger feature extraction
+- Improved caption generation
+
+### Results
+- Validation Accuracy: **38%**
+- Validation Loss: **3.1**
+
+---
+
+## 🔹 EfficientNetB3 + BiGRU + MultiHeadAttention
+- Strongest overall architecture
+- Better natural language generation
+- Stronger visual understanding
+- Best recommendation quality
+
+### Results
+- Validation Accuracy: **40%+**
+- Validation Loss: **2.9**
+
+---
+
+# 🏆 Best Performing Model
+
+## EfficientNetB3 + BiGRU + MultiHeadAttention
+
+### Achieved:
+- Highest validation accuracy
+- Lowest validation loss
+- Most natural captions
+- Best recommendation quality
 
 ## NLP Caption Generation
 
